@@ -14,5 +14,6 @@ depends: [
   "opam-client" {>= "2.1.0" & < "2.2" & opam-version >= "2.1" & opam-version < "2.2"}
   "opam-client" {>= "2.2" & < "2.3" & opam-version >= "2.2" & opam-version < "2.3"}
   "cmdliner" {>= "1.0"}
+  "foo" {= version}
 ]
 available: opam-version >= "2.1" & opam-version < "2.3"
